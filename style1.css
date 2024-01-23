@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(les-pyramides-de-gizeh.jpg);
+    height: 175vh;
+    background-size: cover;
+    background-position: center;
+
+}
+.logo a{
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid transparent;
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba( 0, 0, 0, 0.7);
+}
+.logo span{
+    color: #FFE62E;
+    font-weight: bold;
+    font-size: 2rem;
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li article {
+    margin-left: 0em;
+}
+ul li a{
+ text-decoration: none;
+ color: #fff;
+ padding: 10px 60px;
+ text-transform: uppercase;
+ border: 1px solid transparent;
+ margin: 90px;
+ font-weight: 500;
+ transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background:transparent;
+    color: #FFE62E;
+}
+
+ul li .active a{
+    background: #fff;
+    color: #000;
+
+} 
+.principal{max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%),-50%;
+    color: #fff;
+    border: 3px solid #FFE62E;
+  border-radius: 8px;
+  padding: 10px 70px;
+}
+
+.footer{
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    transform: translate(-20%),-20%;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 10px 50px;
+}
+.btn{
+    transition: 0.6 ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.text{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-20%),-20%;
+    color: #fff;
+}
+.pyramide{
+    position: absolute;
+    top: 170%;
+    left: 5%;
+    transform: translate(-20%),-20%;
+}
+.pyramide a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 10px 50px;
+}
+.histoire{text-decoration: underline;}
+.pyr{transition: 0.6 ease;}
+.pyr:hover{
+    background-color: #fff;
+    color: #000;
+}
